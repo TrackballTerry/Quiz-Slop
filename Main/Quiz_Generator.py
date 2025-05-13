@@ -18,7 +18,8 @@ from PIL import Image
 # 2. take each character image selected 1 at a time and make temporary 
 # blurred versions (seperate function?)
 # 3. the goal is to slowly unblur over 10 secs, 30 fps
-# 4. Use moviepy to put the edited images together by Concatenating the char_mv_clips together and return that as a video clip
+# 4. after 10 secs reveal answer for 3 secs then move on to next character
+# 5. Use moviepy to put the edited images together by Concatenating the char_mv_clips together and return that as a video clip
 
 # Character blur function
 # take the given character and make the temporary blur'd versions 
@@ -26,12 +27,16 @@ from PIL import Image
 
 # Maps category function
 # 1. Simple category just need to add 30fps 10 sec timer to the 10 randomly selected images and make it into a video clip together
+# 2. after 10 secs reveal answer for 3 secs then move on to next map
 
 # Title screen category function
 # 1. Simple category just need to add 30fps 10 sec timer to the 10 randomly selected images and make it into a video clip together
+# 2. after 10 secs reveal answer and switch to titled image for 3 secs then move on to next title
 
 # Items category function
 # 1. Simple category just need to add 30fps 10 sec timer to the 10 randomly selected images and make it into a video clip together
+# 2. after 10 secs reveal answer for 3 secs then move on to next item
 
 # Skill_Tree function
 # 1. Simple category just need to add 30fps 10 sec timer to the 10 randomly selected images and make it into a video clip together
+# 2. after 10 secs reveal answer for 3 secs then move on to next Skill tree
